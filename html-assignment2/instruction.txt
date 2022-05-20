@@ -1,0 +1,33 @@
+<!-- Assigment 5/16/2022 -->
+<!-- Website with a Home page that contains some placeholder description -->
+<!-- Reservation page to "book" a trip -->
+<!-- 
+Home:
+- Navbar
+- Footer
+- Hero content (banner image specifically)
+- Main Header
+- Page content the describes your site
+- Link to a reservation form page
+-->
+<!--
+  Reservations:
+- Navbar
+- Footer
+- Hero content
+- Main Header
+- Page content the describes your site
+- Web form
+  - email
+  - first, last
+  - phone
+  - start date, end date
+  - 2 radio buttons
+  - 3 checkboxes
+  - Something needs to be required (you choose which fields make sense)
+  - submit button
+  - hit that same api "https://httpbin.org/post" and have it echo your fields
+  - 1 select dropdown
+-->
+
+<!-- HAVE FUN WITH IT -->

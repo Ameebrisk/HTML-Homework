@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment # 2</title>
+  </head>
+  <body>
+    <div class="indexlink">
+      <a href="./index.html">Home</a>
+      <br>
+    <div class="booking">
+      <a href="./booking.html">Booking</a>
+      <br>
+      <br>
+        </div>
+      </div>
+    </div>
+  </body>
+  <div>
+    <h1>Book A Vacation</h1>
+    <br>
+    <img
+    style="width: 800px; height: 300px"
+    src="images/upgraded-points-KVym2PAn1gA-unsplash.jpg"/>
+    <br>
+    <br>
+    <br>
+    <div>
+      <p>We are happy to set up your vacation! Please enter your information below.</p>
+    </div>
+    
+    <form action= "https://httpbin.org/post" method="post"form>
+      <div>
+        <label>Email
+        <input for="email"/>
+        </label>
+        <label>First Name
+          <input for="First Name"/>
+        </label>
+        <label>Last Name
+          <input for="Last Name"/>
+        </label>
+        <br>
+        <br>
+        <label>Phone Number
+        <input for ="Phone Number"/>
+        <br>
+        <br>
+        <label for="start"> Start Date:</label>
+        <input type="date" id="start" name="Trip-start-date"
+               value="05-16-2022"
+               min="01-01-2022" max="12-31-2022">
+
+               <label for="end"> End Date:</label>
+               <input type="date" id="start" name="Trip-end-date"
+                      value="05-17-2022"
+                      min="01-01-2022" max="12-31-2022">
+                      <br>
+                      <br>
+      </div>
+      <p>Please select all the ammenities that will apply</p>
+      <br>
+        <div>
+          <input type="checkbox" checked="true" />
+          <label>Pool</label>
+          <input type="checkbox" checked="true" />
+          <label>Hot Tub</label>
+          <input type="checkbox" checked="true" />
+          <label>Wifi</label>
+        </div>
+        <div>
+          <br>
+          <p>Does everything look correct? No refunds available once checked</p>
+          <input name="tos" required="required" type="radio" value="accepted" checked />
+          <label>accept</label>
+        
+          <input name="tos" required="required" type="radio" value="accepted" checked />
+          <label>decline</label>  
+          <br>
+          <br>
+          <br>
+        </div>
+        <div>
+          <p> Select the number of guests for your trip </p>
+          <select>
+            <option value="guests">1</option>
+            <option value="guests1">2</option>
+            <option value="guests2">3</option>
+            <option value="guests3">4</option>
+          </select>
+          <br>
+          <br>
+        </div>
+        <div>
+          <p> please press submit when finished</p>
+          <button type="submit">Submit</button>
+        </div>
+        <br>
+      </div>
+    <footer>
+            <br>
+            <br>
+            <br>
+            <p>Here is my footer</p>
+      <h5>By Amee Brisk</h5>
+      <div class="bottomnavbar">
+        <div class="indexlink">
+          <a href="./index.html">Home</a>
+          <br>
+        <div class="booking">
+          <a href="./booking.html">Booking</a>
+          
+  </footer>
+  </div>
+  </body>
+</html>
