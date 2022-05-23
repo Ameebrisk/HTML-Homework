@@ -1,0 +1,140 @@
+body {
+  font-family: arial, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #4285f4;
+}
+
+#navigation-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  z-index: 3;
+  height: 50px;
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  margin: 0 auto;
+  width: auto;
+  max-width: 600px;
+}
+
+.search input {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.search i {
+  border: 0;
+  background: transparent;
+  padding: 15px;
+}
+
+.buttons {
+  display: block;
+  text-align: center;
+}
+
+.button1 {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  color: black;
+  font-size: 14px;
+  margin: 10px 5px;
+  padding: 0 15px;
+  height: 35px;
+  min-width: 55px;
+  text-align: center;
+}
+
+.button2 {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  color: black;
+  font-size: 14px;
+  margin: 10px 5px;
+  padding: 0 15px;
+  height: 35px;
+  min-width: 55px;
+  text-align: center;
+}
+
+.random-info {
+  display: grid;
+  justify-content: center;
+}
+
+.bottom-container {
+  display: grid;
+  justify-content: center;
+}
+/* 
+.foot-words {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+} */
+
+.foot-words {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.left_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.right_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 90vh;
+  width: 90vw;
+  border: 3px solid red;
+  padding: 0 15px;
+}
+
+.container .flex-item {
+  border: 1px solid red;
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+} */
